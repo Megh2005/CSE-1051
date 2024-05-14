@@ -1,8 +1,9 @@
-[![](https://github.com/jpoehnelt/in-solidarity-bot/raw/main/static//badge-for-the-badge.png)](https://github.com/apps/in-solidarity)
-# Configuration
-## Linux Configuration
-**Linux comes with its inbuilt C code compiler named `gcc`**
-- **To create a directory in [Ubuntu](https://ubuntu.com/download/desktop) you need to run**
+# Coding In C Using Ubuntu Linux OS
+
+## Configuration
+### Linux Configuration
+Linux comes with its inbuilt C code compiler named `gcc`
+- **Create a directory in [Ubuntu](https://ubuntu.com/download/desktop)**
 ```sh
 mkdir directoryname
 ```
@@ -10,31 +11,31 @@ mkdir directoryname
 ```sh
 cd directory name
 ```
-- **To create a file for C code, run in the terminal**
+- **Create a file for C code**
 ```sh
 gedit filename.c
 ```
-- **For compilation of code run**
+- **For compilation of code**
 ```sh
 gcc filename.c -o filename.o
 ```
-- **If you are using `math.h` then for compilation run**
+- **If `math.h` is used then for compilation of code**
 ```sh
 gcc filename.c -o filename.o -lm
 ```
-- **After successful compilation without errors, for running the code run**
+- **For running the correctly compiled code**
 ```sh
 ./filename.o
 ```
 
-## Windows Configuration
+### Windows Configuration
 **Windows never comes with any inbuilt C code compiler**
 - **Install an external ide. My suggestion is [this](https://sourceforge.net/projects/dev-cpp/files/Binaries/Dev-C%2B%2B%204.9.9.2/devcpp-4.9.9.2_setup.exe/download). Don't use Visual Studio Code**
 - **In that external ide you can directly create folders and code files by clicking guided buttons**
 - **In external ide you can directly and automatically compile and run your code**
 
-# Technicalities
-## Topics you should learn before seeing this codes
+## Technicalities
+### Topics you should learn before seeing this codes
 - **Data types in C**
 - **Basic operations in C**
 - **Functions in C**
@@ -45,14 +46,14 @@ gcc filename.c -o filename.o -lm
 - **Strings and structures**
 - **Files in C**
 - **Other minor topics**
-## Size of various data types in C
+### Size of various data types in C
 | Data Type| Indicator| Specifier| Size  |
 | -------- | -------- | ---------|-------|
 | Integer  | int      | %d       | 2 byte|
 | Decimal  | float    | %f       | 4 byte|
 | Character| char     | %c       | 1 byte|
 
-## A basic hello world programme in C
+### A basic hello world programme in C
 ```c
 #include<stdio.h>
 int main()
@@ -61,3 +62,9 @@ int main()
     return 0;
 }
 ```
+### Appendix
+![C Badge](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=fff&style=for-the-badge)
+&nbsp;
+![Linux Badge](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=000&style=for-the-badge)
+ &nbsp;
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=fff&style=for-the-badge)
