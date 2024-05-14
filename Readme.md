@@ -30,9 +30,8 @@ gcc filename.c -o filename.o -lm
 
 ### Windows Configuration
 **Windows never comes with any inbuilt C code compiler**
-- **Install an external ide. My suggestion is [this](https://sourceforge.net/projects/dev-cpp/files/Binaries/Dev-C%2B%2B%204.9.9.2/devcpp-4.9.9.2_setup.exe/download). Don't use Visual Studio Code**
-- **In that external ide you can directly create folders and code files by clicking guided buttons**
-- **In external ide you can directly and automatically compile and run your code**
+- **Install an external ide. My suggestion is [Dev Cpp](https://sourceforge.net/projects/dev-cpp/files/Binaries/Dev-C%2B%2B%204.9.9.2/devcpp-4.9.9.2_setup.exe/download). Don't use Visual Studio Code**
+- **In external ide you can automatically compile and run your code**
 
 ## Technicalities
 ### Topics you should learn before seeing this codes
