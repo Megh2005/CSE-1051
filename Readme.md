@@ -9,7 +9,7 @@ mkdir directoryname
 ```
 - **Move to the created directory**
 ```sh
-cd directory name
+cd directoryname
 ```
 - **Create a file for C code**
 ```sh
